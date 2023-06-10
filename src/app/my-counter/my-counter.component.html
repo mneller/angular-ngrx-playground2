@@ -1,0 +1,7 @@
+<p>my-counter works!</p>
+<button id="increment" (click)="increment()" class="btn btn-success">Increment</button>
+<button id="decrement" (click)="decrement()" class="btn btn-danger">Decrement</button>
+<button id="reset" (click)="reset()" class="btn btn-warning">Reset Counter</button>
+
+<div class="btn-info">Current Count: {{ count$ | async }}</div>
+
